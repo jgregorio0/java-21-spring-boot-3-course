@@ -48,3 +48,16 @@ After completing this course, you should be able to:
 21. Miscellaneous Java Topics
 
 
+- Lambda pre and pos Java 8: [BasicLambdas.java](src/main/java/jgregorio/course/java/lambda/BasicLambdas.java)
+- Lambda implemented by a dynamic functional interface [DynamicFunctionalInterface.java](src/main/java/jgregorio/course/java/lambda/DynamicFunctionalInterface.java)
+- Functional interfaces API in `java.util.function` package
+- Predicate: [PredicateSample.java](src/main/java/jgregorio/course/java/lambda/PredicateSample.java)
+- Supplier: [SupplierSample.java](src/main/java/jgregorio/course/java/lambda/SupplierSample.java)
+- Consumer: [ConsumerSample.java](src/main/java/jgregorio/course/java/lambda/ConsumerSample.java)
+- Function: [FunctionSample.java](src/main/java/jgregorio/course/java/lambda/FunctionSample.java)
+- Unary and binary operator: [UnaryAndBinaryOperatorSample.java](src/main/java/jgregorio/course/java/lambda/UnaryAndBinaryOperatorSample.java)
+
+Final or effectively final:
+- Variable used in lambda expression should be final or effectively final
+- They cannot be modified
+- sample: [EffectivelyFinal.java](src/main/java/jgregorio/course/java/lambda/EffectivelyFinal.java)
