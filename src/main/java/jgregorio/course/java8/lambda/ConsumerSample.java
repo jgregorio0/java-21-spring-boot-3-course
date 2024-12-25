@@ -1,11 +1,9 @@
-package jgregorio.course.java.lambda;
+package jgregorio.course.java8.lambda;
 
-import java.time.LocalTime;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
-import java.util.function.Supplier;
 
 public class ConsumerSample {
     public static void main(String[] args) {

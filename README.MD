@@ -7,57 +7,62 @@ Java SE 21 Developer Course
 
 # Description
 
-This new course on Java SE 21
-to build secure, efficient, and maintainable applications.
-It positions you well for career advancement, ensures your skills
-remain relevant, and allows you to take full advantage of the ongoing improvements in the Java platform.
+1. Java 8 Advanced:
+    1. Lambda Expressions
+    17. Streams
+    18. Generics
+    19. Collections
+    20. Concurrency
+    21. JDBC
+    22. File IO
+    23. NIO.2
+    24. Serialisation
+    25. Localisation
 
-It provides an in-depth coverage for all core Java topics and most frequently used APIs.
-It also offers a set of practical exercises teaching how to build a fully functioning Java application from scratch.
+2. Java 11:
+    1. Modules
+    11. private interface methods
+    12. LVTI (local variable type inference)
+    13. Annotations
+    14. Security
 
-After completing this course, you should be able to:
+3. Java 17:
+    1. Sealed classes
+    6. Records
+    7. switch expressions and pattern matching
+    8. Text blocks
 
-- Describe the object-oriented programming approach
-- Explain Java syntax and coding conventions
-- Use Java constructs and operators
-- Use core Java APIs, such as Collections, Streams, IO, and Concurrency
-- Deploy Java SE applications
+4. Java 21:
+    1. Unnamed classes and instance main methods
+    2. Record patterns
+    3. Pattern matching for switch
+    4. Sequenced collections
 
-# Index
+5. Spring Boot Application:
+    1. configuring a Spring Boot application, including its dependencies
+    2. understanding how RESTful applications work
+    3. architecture overview
+    4. code explained in detail
+    5. testing the application with Postman
 
-1. Introduction to Java
-2. Primitive Types, Operators, and Flow Control Statements
-3. Text, Date, Time, and Numeric Objects
-4. Classes and Objects
-5. Improved Class Design
-6. Implement Inheritance and Use Records
-7. Interfaces and Generics
-8. Arrays and Loops
-9. Collections
-10. Nested Classes and Lambda Expressions
-11. Java Streams API
-12. Exception Handling, Logging, and Debugging
-13. Java IO API
-14. Java Concurrency and Multithreading
-15. Modules and Deployment
-16. Annotations
-17. Java Database Connectivity
-18. Java Security
-19. Advanced Generics
-20. Java Applications on Oracle Cloud
-21. Miscellaneous Java Topics
+# Java 8 Advanced
 
+## Lambda Expressions
 
-- Lambda pre and pos Java 8: [BasicLambdas.java](src/main/java/jgregorio/course/java/lambda/BasicLambdas.java)
-- Lambda implemented by a dynamic functional interface [DynamicFunctionalInterface.java](src/main/java/jgregorio/course/java/lambda/DynamicFunctionalInterface.java)
+- Lambda pre and pos Java 8: [BasicLambdas.java](src/main/java/jgregorio/course/java8/lambda/BasicLambdas.java)
+- Lambda implemented by a dynamic functional
+  interface [DynamicFunctionalInterface.java](src/main/java/jgregorio/course/java8/lambda/DynamicFunctionalInterface.java)
 - Functional interfaces API in `java.util.function` package
-- Predicate: [PredicateSample.java](src/main/java/jgregorio/course/java/lambda/PredicateSample.java)
-- Supplier: [SupplierSample.java](src/main/java/jgregorio/course/java/lambda/SupplierSample.java)
-- Consumer: [ConsumerSample.java](src/main/java/jgregorio/course/java/lambda/ConsumerSample.java)
-- Function: [FunctionSample.java](src/main/java/jgregorio/course/java/lambda/FunctionSample.java)
-- Unary and binary operator: [UnaryAndBinaryOperatorSample.java](src/main/java/jgregorio/course/java/lambda/UnaryAndBinaryOperatorSample.java)
+- Predicate: [PredicateSample.java](src/main/java/jgregorio/course/java8/lambda/PredicateSample.java)
+- Supplier: [SupplierSample.java](src/main/java/jgregorio/course/java8/lambda/SupplierSample.java)
+- Consumer: [ConsumerSample.java](src/main/java/jgregorio/course/java8/lambda/ConsumerSample.java)
+- Function: [FunctionSample.java](src/main/java/jgregorio/course/java8/lambda/FunctionSample.java)
+- Unary and binary
+  operator: [UnaryAndBinaryOperatorSample.java](src/main/java/jgregorio/course/java8/lambda/UnaryAndBinaryOperatorSample.java)
 
 Final or effectively final:
+
 - Variable used in lambda expression should be final or effectively final
 - They cannot be modified
-- sample: [EffectivelyFinal.java](src/main/java/jgregorio/course/java/lambda/EffectivelyFinal.java)
+- sample: [EffectivelyFinal.java](src/main/java/jgregorio/course/java8/lambda/EffectivelyFinal.java)
+

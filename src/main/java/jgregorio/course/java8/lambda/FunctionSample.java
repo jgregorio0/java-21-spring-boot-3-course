@@ -1,10 +1,6 @@
-package jgregorio.course.java.lambda;
+package jgregorio.course.java8.lambda;
 
-import java.util.List;
-import java.util.Map;
-import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class FunctionSample {

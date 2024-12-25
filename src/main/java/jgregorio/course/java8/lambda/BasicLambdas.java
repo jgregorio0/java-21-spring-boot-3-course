@@ -1,4 +1,4 @@
-package jgregorio.course.java.lambda;
+package jgregorio.course.java8.lambda;
 
 public class BasicLambdas {
     interface I {

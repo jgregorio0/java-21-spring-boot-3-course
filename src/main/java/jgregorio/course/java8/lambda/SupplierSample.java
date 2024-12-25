@@ -1,8 +1,6 @@
-package jgregorio.course.java.lambda;
+package jgregorio.course.java8.lambda;
 
 import java.time.LocalTime;
-import java.util.function.BiPredicate;
-import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class SupplierSample {
