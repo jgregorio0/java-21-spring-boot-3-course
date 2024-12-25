@@ -60,9 +60,21 @@ Java SE 21 Developer Course
 - Unary and binary
   operator: [UnaryAndBinaryOperatorSample.java](src/main/java/jgregorio/course/java8/lambda/UnaryAndBinaryOperatorSample.java)
 
-Final or effectively final:
+### Final or effectively final:
 
 - Variable used in lambda expression should be final or effectively final
 - They cannot be modified
 - sample: [EffectivelyFinal.java](src/main/java/jgregorio/course/java8/lambda/EffectivelyFinal.java)
+
+### Method references:
+
+- 4 types:
+  - Bound: instance known at compile-time
+  - Unbound: instance provided at runtime
+  - Static
+  - Constructor
+- Context is the key
+- Compiler turns method references into lambdas in the background
+- sample: [MethodReference.java](src/main/java/jgregorio/course/java8/lambda/MethodReference.java)
+- 
 
