@@ -78,3 +78,13 @@ Java SE 21 Developer Course
 - sample: [MethodReference.java](src/main/java/jgregorio/course/java8/lambda/MethodReference.java)
 - 
 
+### Lab 1
+[1-Lambdas-Lab.pdf](src/main/resources/java8/lambda/lab/1-Lambdas-Lab.pdf)
+
+### Lab 2
+Instructions:
+[2-Lambdas+and+Method+References+Exercises+v2.pdf](src/main/resources/java8/lambda/lab/2-Lambdas%2Band%2BMethod%2BReferences%2BExercises%2Bv2.pdf)
+Completed:
+[LambdasAndMethodReferences.java](src/main/java/jgregorio/course/java8/lambda/lab2/LambdasAndMethodReferences.java)
+
+## Streams
