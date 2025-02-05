@@ -88,3 +88,64 @@ Completed:
 [LambdasAndMethodReferences.java](src/main/java/jgregorio/course/java8/lambda/lab2/LambdasAndMethodReferences.java)
 
 ## Streams
+stream pipeline
+- Source: array, collection, etc...
+- Intermediate operations: transform stream into another
+- Terminal operation: produces a result
+
+### Stream lazyness
+Nothing happens until the terminal operation occurs.
+
+The stream operates in a vertical manner. 
+All stream operations are performed on an element until next element is processed.
+
+### Terminal operations
+- Reduction
+Reductions are terminal operations where ALL of the contents are combined into a single primitive or Object.
+```
+Stream.of("h", "o", "l", "a").peek(System.out::println)
+// Processes all values and prints them
+```
+
+- Accumulator: mutable variables that can be modified by tasks during execution of a streaming job.
+```
+Stream.of("h", "o", "l", "a").reduce("", (a,b) -> a+b)
+// returns single Object "hola". The String "" is an accumulator.
+```
+
+- Collect: mutable reduction. The same mutable object is used while accumulating.
+
+- PartitioningBy: grouping where groups are true or false.
+
+### Intermediate operations
+
+- filter: returns a Stream with the elements that match the given Predicate.
+- distinct: returns a Stream with duplicated values removed
+- limit: returns a Stream containing the limit number of elements
+- map: returns a Stream with elements transformed by the mapping function
+- flatMap: returns a Stream with a collection of elements contained by each element
+- sorted: returns a Stream with sorted elements
+
+### Primitive Streams
+- IntStream: for int, short, byte and char
+- DoubleStream: for double and float
+- LongStream: for long
+
+common methods:
+- average
+- max
+- min
+- sum
+
+### Optionals
+Represents an object that may or not be empty
+
+- ifPresent: executes if value is not empty
+- orElseGet: returns value if not empty or else value provided
+
+### Parallel Streams
+Stream parallel elements.
+Be careful if factors order changes the result.
+
+
+
